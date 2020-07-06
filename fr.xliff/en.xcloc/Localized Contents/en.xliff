@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="LocalizeMe/Base.lproj/Main.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+    </header>
+    <body>
+      <trans-unit id="CI3-V2-9uD.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "CI3-V2-9uD";</note>
+      </trans-unit>
+      <trans-unit id="HCK-D4-Usd.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "HCK-D4-Usd";</note>
+      </trans-unit>
+      <trans-unit id="Hce-bq-TIc.text" xml:space="preserve">
+        <source>Fourth</source>
+        <target>Fourth</target>
+        <note>Class = "UILabel"; text = "Fourth"; ObjectID = "Hce-bq-TIc";</note>
+      </trans-unit>
+      <trans-unit id="Hve-Eg-Zvs.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "Hve-Eg-Zvs";</note>
+      </trans-unit>
+      <trans-unit id="Llu-Bv-cON.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "Llu-Bv-cON";</note>
+      </trans-unit>
+      <trans-unit id="Obj-qg-977.text" xml:space="preserve">
+        <source>Third</source>
+        <target>Third</target>
+        <note>Class = "UILabel"; text = "Third"; ObjectID = "Obj-qg-977";</note>
+      </trans-unit>
+      <trans-unit id="VDO-ew-8jJ.text" xml:space="preserve">
+        <source>First</source>
+        <target>First</target>
+        <note>Class = "UILabel"; text = "First"; ObjectID = "VDO-ew-8jJ";</note>
+      </trans-unit>
+      <trans-unit id="WRb-yZ-fhC.text" xml:space="preserve">
+        <source>Fifth</source>
+        <target>Fifth</target>
+        <note>Class = "UILabel"; text = "Fifth"; ObjectID = "WRb-yZ-fhC";</note>
+      </trans-unit>
+      <trans-unit id="prU-d6-fvg.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "prU-d6-fvg";</note>
+      </trans-unit>
+      <trans-unit id="s4c-pZ-oYd.text" xml:space="preserve">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "s4c-pZ-oYd";</note>
+      </trans-unit>
+      <trans-unit id="sxz-cv-8pt.text" xml:space="preserve">
+        <source>Second</source>
+        <target>Second</target>
+        <note>Class = "UILabel"; text = "Second"; ObjectID = "sxz-cv-8pt";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizeMe/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>LocalizeMe</source>
+        <target>LocalizeMe</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizeMe/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+    </header>
+    <body>
+      <trans-unit id="FLAG_FILE" xml:space="preserve">
+        <source>FLAG_FILE</source>
+        <target>FLAG_FILE</target>
+        <note>Name of the flag</note>
+      </trans-unit>
+      <trans-unit id="LABEL_FIVE" xml:space="preserve">
+        <source>LABEL_FIVE</source>
+        <target>LABEL_FIVE</target>
+        <note>The number 5</note>
+      </trans-unit>
+      <trans-unit id="LABEL_FOUR" xml:space="preserve">
+        <source>LABEL_FOUR</source>
+        <target>LABEL_FOUR</target>
+        <note>The number 4</note>
+      </trans-unit>
+      <trans-unit id="LABEL_ONE" xml:space="preserve">
+        <source>LABEL_ONE</source>
+        <target>LABEL_ONE</target>
+        <note>The number 1</note>
+      </trans-unit>
+      <trans-unit id="LABEL_THREE" xml:space="preserve">
+        <source>LABEL_THREE</source>
+        <target>LABEL_THREE</target>
+        <note>The number 3</note>
+      </trans-unit>
+      <trans-unit id="LABEL_TWO" xml:space="preserve">
+        <source>LABEL_TWO</source>
+        <target>LABEL_TWO</target>
+        <note>The number 2</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

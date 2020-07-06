@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  LocalizeMe
+
+  Created by nuko on 2020/7/6.
+  Copyright © 2020 nuko. All rights reserved.
+*/
+
+"CFBundleName" = "Localize Me";
+

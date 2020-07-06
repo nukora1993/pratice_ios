@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQf-Bi-ho9">
+                                <rect key="frame" x="8" y="163" width="398" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUA-6L-eoq">
+                                <rect key="frame" x="8" y="234" width="398" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VxQ-dn-p85">
+                                <rect key="frame" x="8" y="305" width="398" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Umi-KX-MaX">
+                                <rect key="frame" x="8" y="92" width="398" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="OQf-Bi-ho9" firstAttribute="top" secondItem="Umi-KX-MaX" secondAttribute="bottom" constant="50" id="2K5-nV-OwG"/>
+                            <constraint firstItem="mUA-6L-eoq" firstAttribute="leading" secondItem="OQf-Bi-ho9" secondAttribute="leading" id="4me-g4-yli"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Umi-KX-MaX" secondAttribute="trailing" constant="8" id="AVb-Ll-Ul9"/>
+                            <constraint firstItem="VxQ-dn-p85" firstAttribute="top" secondItem="mUA-6L-eoq" secondAttribute="bottom" constant="50" id="Bxz-Zn-cHc"/>
+                            <constraint firstItem="OQf-Bi-ho9" firstAttribute="trailing" secondItem="Umi-KX-MaX" secondAttribute="trailing" id="C5G-O7-XE9"/>
+                            <constraint firstItem="mUA-6L-eoq" firstAttribute="trailing" secondItem="OQf-Bi-ho9" secondAttribute="trailing" id="CrK-Dp-vsc"/>
+                            <constraint firstItem="Umi-KX-MaX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="L0d-sL-beI"/>
+                            <constraint firstItem="OQf-Bi-ho9" firstAttribute="leading" secondItem="Umi-KX-MaX" secondAttribute="leading" id="atG-vB-oAC"/>
+                            <constraint firstItem="Umi-KX-MaX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="fp1-EW-tkV"/>
+                            <constraint firstItem="VxQ-dn-p85" firstAttribute="trailing" secondItem="mUA-6L-eoq" secondAttribute="trailing" id="kpf-n1-dUt"/>
+                            <constraint firstItem="VxQ-dn-p85" firstAttribute="leading" secondItem="mUA-6L-eoq" secondAttribute="leading" id="qcb-qp-sbW"/>
+                            <constraint firstItem="mUA-6L-eoq" firstAttribute="top" secondItem="OQf-Bi-ho9" secondAttribute="bottom" constant="50" id="yfp-fN-PYN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="doubleLabel" destination="OQf-Bi-ho9" id="wUT-We-PuX"/>
+                        <outlet property="quadrupleLabel" destination="VxQ-dn-p85" id="5UW-8f-e0S"/>
+                        <outlet property="singleLabel" destination="Umi-KX-MaX" id="oIp-C7-MuL"/>
+                        <outlet property="tripleLabel" destination="mUA-6L-eoq" id="ztt-88-Vba"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
